@@ -30,6 +30,7 @@ a {
   
   .btn:hover {
     background-color: #5495ff;
+    color: white;
     padding: 16px 20px;
     border-radius: 12px;
     font-weight: bold;
@@ -47,6 +48,7 @@ a {
   
   .activity:hover {
     background-color: #5495ff;
+    color: white;
   }
   
   .activity:active {
