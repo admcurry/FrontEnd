@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 43, 43);
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+nav {
+    height: 69px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+#logo {
+    height: 50px;
+    padding: 14.5px 10px;
+    display: inline-block;
+}
+
+.navbar {
+    height: 69px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.navbar li {
+    margin: 0;
+    display: inline-block;
+    height: 100%;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+.navbar li a {
+    color: white;
+    text-align: center;
+}
