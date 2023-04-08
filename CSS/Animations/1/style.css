@@ -1,0 +1,23 @@
+.hello {
+    margin: 100 75;
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 48px;
+    color: #2BAE66;
+    animation: rightLeft 1s;
+    text-align: center;
+  }
+  
+  @keyframes rightLeft {
+    /* Add stages below */
+    30% {
+      transform: translate(50px, 0px);
+    }
+    70% {
+      transform: translate(-50px, 0px);
+    }
+  }
+  
+  body {
+    background-color: #FCF6F5;
+  }
