@@ -1,0 +1,37 @@
+@keyframes downThenUp {
+    0% {
+      transform: translate(0px, 200px);
+    }
+    50% {
+      transform: translate(0px, 400px) rotate(45deg);
+    }
+    100% {
+      transform: translate(0px, 200px);
+    }
+  }
+
+.square {
+    float: left;
+    margin: 100px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: #F1F3FFFF
+}
+
+.square1 {
+    background-color: #F7CED7FF;
+    animation: downThenUp 2s forwards linear;
+}
+
+.square2 {
+    background-color: #F99FC9FF;
+    animation: downThenUp 2s backwards ease-in;
+}
+
+.square3 {
+    background-color: #EF6079FF;
+    animation: downThenUp 2s both ease-out;
+}
